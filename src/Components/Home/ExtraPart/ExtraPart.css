@@ -1,0 +1,17 @@
+.box{
+    background-color: rgba(255, 0, 0, 0.384);
+    text-align: center;
+    margin: 10px;
+}
+.box >p >small{
+    font-weight: 700;
+    color: black;
+}
+.box > h5, h4{
+font-weight: 700;
+color: black;
+}
+.head3{
+    color: rgb(179, 3, 3);
+border-bottom: 1px solid red;
+text-align: center;}

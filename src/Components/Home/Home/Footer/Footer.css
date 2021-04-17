@@ -1,0 +1,20 @@
+.footer 
+{
+background-color:rgb(153, 3, 3);
+height: 100%;
+}
+.fImg{
+    width: 80px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    transition: transform 2s;
+}
+.fImg:hover{
+    transform: scale(1.5);
+}
+.head2{
+    border-bottom: 2px solid white;
+}
+.icon{
+    color: white;
+}

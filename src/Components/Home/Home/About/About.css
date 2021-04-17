@@ -1,0 +1,34 @@
+#aImg{
+    width: 700px;
+    transition: transform 2s;
+}
+
+#aImg:hover {
+    transform: scale(1.2);
+   
+}
+.right{
+    background-color: rgba(255, 0, 0, 0.322);
+}
+
+.right > h1{
+    font-size: 30px;
+    color: rgb(219, 3, 3);
+    animation: Slide_Up 1s ease-in-out;
+}
+.right >p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+@keyframes Slide-Up{
+
+    0%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    }

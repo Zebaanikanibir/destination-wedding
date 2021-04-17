@@ -1,0 +1,12 @@
+#rImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.head3{
+    border-bottom: 2px solid red;
+    margin-top: 20px;
+}
+.icon1{
+    color: goldenrod;
+}

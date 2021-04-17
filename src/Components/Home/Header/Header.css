@@ -1,0 +1,11 @@
+.header-container{
+   
+    height:100%;
+    width: 100%;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../images/couple.jpg'); 
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}

@@ -1,0 +1,79 @@
+.slider{
+
+background-image: url('../../../images/image1.png_New1.jpg');
+height: 500px;
+width:fit-content;
+background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+animation: slide 20s infinite;
+}
+
+
+@keyframes slide {
+    25%{
+        background-image: url('../../../images/image2.png_New1.jpg');
+    }
+    50%{
+        background-image: url('../../../images/image3.png_New1.jpg');
+    }
+    75%{
+        background-image: url('../../../images/image4.png_New1.jpg');
+    }
+    100%{
+        background-image: url('../../../images/image1.png_New1.jpg');
+    }
+}
+
+
+
+.inner> #button{
+
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid red;
+background: darkred;
+color: white;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+animation: Slide_In 1s ease;
+}
+
+.inner{
+    text-align: center;
+    color: aliceblue;
+}
+.inner>h1{
+font-size: 40px;
+
+animation: Slide_Up 1s ease;
+}
+.inner>p{
+    font-size: 15px;
+    animation: Slide_Up 1s ease;
+}
+
+@keyframes Slide_Up{
+
+    0%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    }
+
+    @keyframes Slide_In{
+
+        0%{
+            transform: translateY(250px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+        }

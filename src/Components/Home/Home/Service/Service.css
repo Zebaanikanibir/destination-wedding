@@ -1,0 +1,49 @@
+#serviceImg{
+    width: 300px;
+    transition: transform 2s;
+}
+#serviceImg:hover {
+    transform: scale(1.2);
+   
+}
+
+
+#btn{
+   
+
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 15px;
+        border: 2px solid red;
+        background: darkred;
+        cursor: pointer;
+        color: white;
+        position: relative;
+        overflow: hidden;
+      
+        
+}
+#btn:hover{
+   
+
+   font-size: 20px;
+  
+    
+}
+.cInfo{
+font-size: 15px;
+font-weight: 700;
+}
+
+#card{
+    border:none;
+    background-color: rgba(255, 0, 0, 0.342);
+}
+
+#card > p >small{
+    font-weight: 700;
+}

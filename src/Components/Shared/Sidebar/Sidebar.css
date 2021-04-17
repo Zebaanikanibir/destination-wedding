@@ -1,0 +1,17 @@
+.side{
+    background-image: linear-gradient(red,darkred);
+   height: 100%;
+   width:100%;
+}
+.side li{
+    margin-bottom: 2em;
+    padding: 20px;
+}
+.side li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.side svg{
+    margin-right: 5px;
+}
+

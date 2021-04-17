@@ -1,0 +1,31 @@
+.form1{
+
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../../images/flower.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.inputBox{
+  margin-left: 180px;
+}
+#send{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: darkred;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    }
+    .head1{
+        border-bottom: 2px solid red;
+        width: 500px;
+        margin: auto;
+    }
