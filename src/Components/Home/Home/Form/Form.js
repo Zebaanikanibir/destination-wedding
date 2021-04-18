@@ -5,7 +5,7 @@ const Form = () => {
         <section className="form1 App">
             <h1 className="text-white head1">Contact Us</h1>
             <p className="text-white" >..........💑..........</p>
-            <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius ducimus iusto dolor. Dolorem, optio dolores est nesciunt quo iusto.</p>
+            <p className="text-white">We Are Open 24/7.You Can Connect With Us At Any time </p>
             <form className="container ">
                         <div className="d-flex">
                         <div class="form-group">
@@ -22,7 +22,7 @@ const Form = () => {
                             <input type="password" className="form-control inputBox" id="exampleInputPassword1" placeholder="About Cost" name="password" />
                         </div>
                         <div class="form-group">
-                            <input type="number" className="form-control inputBox " id="exampleInputPassword1" placeholder="Phone Number" name="number" />
+                            <input type="number" className="form-control inputBox" id="exampleInputPassword1" placeholder="Phone Number" name="number" />
                         </div>
                         </div>
                         <div class="form-group">
