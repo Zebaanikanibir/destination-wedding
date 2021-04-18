@@ -18,8 +18,14 @@ const ExtraPart = () => {
              <p><small>We stopped by Carino's over labor day weekend and spoke with one of the event manager/chef guys. He was sooo nice and it sounds like it's gonna be an awesome lunch</small></p>
              </div>
             </div>
-            <div className="col-md-4">
-             <img src={image} alt=""/>
+            <div className="col-md-4 wrapper">
+             <img  src={image} alt=""/>
+             <div className="overlay">
+                 <div className="content">
+                     <h3>We Make your Moment </h3>
+                     <h3>More Special❤❤❤...</h3>
+                 </div>
+             </div>
             </div>
             <div className="col-md-4 mt-5">
              <div className="box">

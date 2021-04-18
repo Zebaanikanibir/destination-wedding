@@ -15,3 +15,40 @@ color: black;
     color: rgb(179, 3, 3);
 border-bottom: 1px solid red;
 text-align: center;}
+.wrapper{
+    font-size: 20px;
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+.wrapper> img{
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+}
+.content{position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(226, 7, 7);
+    overflow: hidden;
+}
+.content > h3{
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+}
+.overlay{
+    opacity: 0;
+}
+.wrapper:hover img{
+    opacity: .3;
+}
+.wrapper:hover .overlay{
+    opacity: 1;
+}

@@ -12,7 +12,7 @@ import { faFacebookF, faInstagram, faGooglePlusG, faTwitter } from '@fortawesome
 import { faPhone, faLocation } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
-        <footer className="row  container-fluid footer">
+        <footer className="row footer1">
             
             <div className="col-md-3 mt-5">
              <h2 className="text-white head2">About Us</h2>
