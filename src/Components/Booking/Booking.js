@@ -34,7 +34,7 @@ const handlePaymentSuccess = paymentId =>{
     const newBooking = { ...loggedInUser, service:booking.name, info:booking.info, cost:booking.cost, paymentId, orderTime: new Date().toDateString('dd/MM/yyyy') }
 
     console.log(loggedInUser)
-    fetch('http://localhost:5011/addBooking', {
+    fetch('https://calm-reaches-86971.herokuapp.com/addBooking', {
         method: 'POST',
         headers: {
 

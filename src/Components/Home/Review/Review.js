@@ -32,10 +32,7 @@ const Review = ({review}) => {
 
 
 
-        // <div className="col-md-4">
-        //    <img id="rImg" src={`data:image/png;base64, ${review.image.img}`} alt=""/>
-        //    
-        // </div>
+        
     );
 };
 

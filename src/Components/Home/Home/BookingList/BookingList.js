@@ -32,7 +32,7 @@ const BookingList = () => {
     const [bookingList, setBookingList] = useState([])
     console.log('List', bookingList)
     useEffect(() => {
-        fetch('http://localhost:5011/bookingList')
+        fetch('https://calm-reaches-86971.herokuapp.com/bookingList')
             .then(res => res.json())
             .then(data => setBookingList(data))
 

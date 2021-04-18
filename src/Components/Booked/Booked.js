@@ -11,7 +11,7 @@ const Booked = () => {
     const [booked, setBooked] = useState([])
     console.log('confirmed', booked)
     useEffect(() => {
-        fetch('http://localhost:5011/booking?email=' + loggedInUser.email)
+        fetch('https://calm-reaches-86971.herokuapp.com/booking?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setBooked(data))
 
