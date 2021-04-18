@@ -11,7 +11,9 @@ const Sidebar = () => {
      
     useEffect(()=>{
 
-    fetch('http://localhost:5011/isAdmin', {
+
+
+    fetch('https://calm-reaches-86971.herokuapp.com/isAdmin', {
 
     method:'POST',
     headers:{'content-type':'application/json'},
