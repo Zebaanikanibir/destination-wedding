@@ -54,7 +54,7 @@ const Sidebar = () => {
                 <li>
                     <Link to="/bookingList" className="text-white d-flex" >
                     <FontAwesomeIcon icon={faFilePdf} />
-                       <span>Manage Order</span>
+                       <span>Manage Service</span>
                     </Link>
                 </li>
                 <li>
