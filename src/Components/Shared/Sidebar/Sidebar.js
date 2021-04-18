@@ -62,6 +62,7 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faUser} />
                        <span>Make Admin</span>
                     </Link>
+                    
                 </li>
                      </div> }
 
