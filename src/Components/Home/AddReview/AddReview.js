@@ -64,7 +64,7 @@ const AddReview = () => {
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Description</label>
-                        <input onBlur={handleBlur} type="text" class="form-control" id="exampleInputPassword1" placeholder="About Cost" name="description" />
+                        <input onBlur={handleBlur} type="text" class="form-control" id="exampleInputPassword1" placeholder="Description" name="description" />
                     </div>
                     <div class="form-group">
                     <label for="exampleCheck1">Upload A Photo</label>
